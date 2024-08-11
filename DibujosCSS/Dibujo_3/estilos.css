@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    background-color: coral;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.book {
+    width: 300px;
+    height: 400px;
+    background-color: rgb(107, 160, 54);
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px white, 20px 20px rgba(0, 0, 0, 0.144);
+    display: flex;
+    position: relative;
+}
+
+.book h1 {
+    align-self: center;
+    margin-left: 70px;
+}
+
+.circles {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    color: white;
+    background-color: white;
+    top: 30px;
+    border-left-width: 7px;
+    border-radius: 50%;
+    box-shadow: 0 40px, 0 80px, 0 120px, 0 160px, 0 200px, 0 240px, 0 280px, 0 320px;
+}
+
+.line {
+    position: absolute;
+    width: 30px;
+    height: 8px;
+    color: rgb(89, 156, 26);
+    background-color: rgb(36, 177, 90);
+    top: 4px;
+    left: -20px;
+    border-radius: 50px;
+    box-shadow: 0 40px, 0 80px, 0 120px, 0 160px, 0 200px, 0 240px, 0 280px, 0 320px;
+}
+
+.book2 {
+    width: 300px;
+    height: 400px;
+    background-color: cyan;
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: -10px 10px white, -20px 20px rgba(0, 0, 0, 0.144);
+    position: relative;
+    filter: drop-shadow(0 1px);
+    display: flex;
+
+}
+
+.circles2 {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    color: white;
+    background-color: white;
+    top: 30px;
+    left: 280px;
+    border-left-width: 7px;
+    border-radius: 50%;
+    box-shadow: 0 40px, 0 80px, 0 120px, 0 160px, 0 200px, 0 240px, 0 280px, 0 320px;
+
+}
+
+.line2{
+    position: absolute;
+    width: 30px;
+    height: 8px;
+    color: rgb(26, 152, 156);
+    background-color: rgb(36, 168, 177);
+    top: 4px;
+    left: 5px;
+    border-radius: 50px;
+    box-shadow: 0 40px, 0 80px, 0 120px, 0 160px, 0 200px, 0 240px, 0 280px, 0 320px;
+}
+
+.book2 h1{
+    align-self: center;
+    margin-left: 80px;
+}
