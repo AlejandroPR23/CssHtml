@@ -1,0 +1,176 @@
+*{margin:0;box-sizing:0;padding: 0px;}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: cursive;
+    font-size: 18px;
+    text-align: center;
+}
+
+h1{
+    width: 100%;
+    height: 100px;
+    background:linear-gradient(rgb(97, 216, 190),rgb(19, 68, 97));
+    text-align: center;
+    color: azure;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+.bandera{
+    width: 70px;
+    height: 150px;
+    background-color: rgb(245, 225, 51);
+    margin-right: 80px;
+    margin-left: 80px;
+    box-shadow: -70px 0px rgb(0, 0, 0),70px 0 rgb(255, 17, 0);
+    filter: drop-shadow(0 0 3px);
+}
+
+.francia{
+    width: 70px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 80px;
+    margin-left: 80px;
+    box-shadow: 70px 0px rgb(255, 0, 0), -70px 0px rgb(2, 103, 255);
+    filter: drop-shadow(0 0 3px);
+
+}
+
+.guinea{
+    width: 70px;
+    height:150px ;
+    background-color: yellow;
+    margin-left: 80px;
+    margin-right: 80px;
+    box-shadow: 70px 0 red, -70px 0 green;
+    filter: drop-shadow(0 0 3px) ;
+}
+
+.colombia{
+    width: 180px;
+    height: 50px;
+    background-color: blue;
+    margin-right: 20px;
+    margin-left: 20px;
+    box-shadow: 0 -50px yellow, 0 50px red;
+    filter: drop-shadow(0 0 3px);
+}
+
+.austria{
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    box-shadow: 0 50px red,0 -50px red;
+    filter: drop-shadow(0 0 3px);
+
+}
+
+.argentina{display: flex;
+    justify-content: center;
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    margin-right: 20px;
+    box-shadow: 0 50px rgb(124, 210, 231),0 -50px rgb(124, 210, 231);
+    filter: drop-shadow(0 0 3px);
+}
+
+.argentina img{
+    height: 50px;
+    width: 50px;
+}
+
+.india{
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    margin-right: 20px;
+    box-shadow: 0 50px orange, 0 -50px orange;
+    filter: drop-shadow(0 0 3px);
+}
+
+.rusia{
+    width: 180px;
+    height: 50px;
+    background-color:mediumblue;
+    margin-right: 20px;
+    box-shadow: 0 50px red, 0 -50px white;
+    filter: drop-shadow(0 0 3px);
+}
+
+.espania{
+    display: flex;
+    justify-content: flex-start;
+    width: 180px;
+    height: 50px;
+    margin-right: 20px;
+    background-color: gold;
+    box-shadow: 0 50px red, 0 -50px red;
+    filter: drop-shadow(0 0 3px);
+}
+
+.espania img{
+    width: 40px;
+    height: 45px;
+    margin-left: 10px;
+}
+
+.canada{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    width: 100px;
+    height: 150px;
+    background-color: white;
+    box-shadow: 60px 0 red,-60px 0 red;
+    filter: drop-shadow(0 0 3px);
+
+}
+
+.canada img{
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+
+.mexico{
+    height: 147px;
+    width: 110px;
+    margin-right: 80px;
+    margin-left: 80px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 70px 0 rgb(218, 5, 51),-70px 0 green;
+    filter: drop-shadow(0 0 3px);
+}
+
+.mexico img{
+    height: 60px;
+    width: 60px;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background:linear-gradient(rgb(97, 216, 190),rgb(19, 68, 97));
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
